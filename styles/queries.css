@@ -1,0 +1,207 @@
+/* Big tablets to 1200px(widths smaller that 1140px row */
+@media only screen and (max-width:1200px) {
+
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+
+    .carousel-slide .slide .text {
+        width: 80%;
+        font-size: 180%;
+    }
+}
+
+
+
+
+/* Small tablets to big tablets: from 768px to 1023px */
+@media only screen and (max-width:1023px) {
+
+
+    body {
+        font-size: 18px;
+    }
+
+    .logo {
+        height: 90px;
+    }
+
+    .main-nav li {
+        margin-left: 35px;
+    }
+
+    .hero-text-box {
+        width: auto;
+        white-space: nowrap;
+    }
+
+    section {
+        padding: 60px 0;
+    }
+
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .carousel-slide .slide .text {
+        width: 80%;
+        font-size: 150%;
+    }
+
+    .section-services .row {
+        margin-top: 10px;
+    }
+
+    .section-services .row h3 {
+        font-size: 100%;
+    }
+
+    .testimonial .author {
+        margin-top: 5px;
+    }
+
+    .testimonial p {
+        font-size: 80%;
+        margin-left: 15px;
+    }
+
+    .section-contact .row {
+        margin-top: 15px;
+    }
+
+
+}
+
+
+
+
+/*  Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width:767px) {
+    .main-nav {
+        display: none;
+    }
+
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 30px 0;
+    }
+
+    .main-nav {
+        float: left;
+        margin-top: 35px;
+        margin-left: 25px;
+    }
+
+    .main-nav li {
+        display: block;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+
+    h1 {
+        font-size: 180%;
+    }
+
+    h2 {
+        font-size: 150%;
+    }
+
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+        font-size: 120%;
+    }
+
+    .hero-text-box,
+    .row {
+        padding: 0 4%;
+    }
+
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    .carousel-slide .slide .text {
+        width: 80%;
+        font-size: 130%;
+        bottom: 40%;
+    }
+
+    .section-services .services-container {
+        margin-left: calc(40% - 100px);
+    }
+
+    .section-services .col {
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+    .section-services .long-copy {
+        margin-bottom: 20px;
+    }
+
+    .section-services ion-icon {
+        font-size: 250%;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+
+    .section-services .row h3 {
+        margin-left: 25px;
+        font-size: 120%;
+    }
+
+    .section-testimonials .testimonial-container {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .section-testimonials .testimonial {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    .section-contact .contact-social::before {
+        display: block;
+        height: 2px;
+        background-color: #4c9ca0;
+        content: " ";
+        width: 100px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+}
+
+
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width:480px) {
+    section {
+        padding: 25px 0;
+    }
+
+}
